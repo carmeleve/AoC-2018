@@ -11,7 +11,6 @@ with open(filePath) as file:
     csv_reader = csv.reader(file, delimiter=',')
     ids = {}
     for line in csv_reader:
-        lineCount = 0
         for id in ids:
             differences = 0
             differenceAt = 0
@@ -22,7 +21,6 @@ with open(filePath) as file:
             if differences == 1:
                 print(remove_char(line[0], differenceAt))
         ids[line[0]] = line[0]
-        lineCount += 1
         
 
             
