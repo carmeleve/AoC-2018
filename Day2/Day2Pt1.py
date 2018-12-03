@@ -3,7 +3,7 @@ import csv
 num2s = 0
 num3s = 0
 
-filePath = r"C:\Users\CarmelEve\Documents\GitHub\AoC-2018\Day2\input.csv"
+filePath = r"...\Documents\GitHub\AoC-2018\Day2\input.csv"
 
 with open(filePath) as file:
     csv_reader = csv.reader(file, delimiter=',')
