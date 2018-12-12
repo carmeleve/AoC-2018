@@ -4,6 +4,7 @@ import datetime
 
 file_path= "input.txt"
 file = open(file_path, 'r') 
+
 lines = file.readlines()
 events = {}
 

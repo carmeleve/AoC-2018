@@ -23,8 +23,6 @@ def get_children(input):
                 del input[0]    
             
     return value
-            
-        
 
 file_path = "input.txt"
 
